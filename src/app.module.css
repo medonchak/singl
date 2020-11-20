@@ -1,0 +1,19 @@
+.app{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+.page{
+    
+    margin: 25px;
+    width: 80%;
+   
+
+}
+.div{
+    width: 100%;
+    background-color: blue;
+    font-size: 25px;
+    font-family: 'Monotype Corsiva', Cursive;
+}

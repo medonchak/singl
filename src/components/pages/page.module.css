@@ -1,0 +1,43 @@
+.component{
+    margin-top: 10px;
+    display: flex;
+    text-decoration: none;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: center;
+
+
+   
+}
+.menu{
+
+    display: flex;
+	flex-wrap: wrap;
+	background-color: rgb(20, 114, 255);
+	max-width: 100%; /* макс ширина */
+}
+.item{
+    text-decoration: none;
+	flex:1 1 calc(23.33% - 5px); /* отнимем margin и скажем растягиваться */
+	margin:0.5px;
+    padding:2px; 
+    font-size:90%; 
+    text-align:center; 
+    background:#b5ced8; /* для красоты */
+}
+.navLink{
+    background-color: rgb(20, 114, 255);
+    margin: 1px;
+    border: solid 1px black;
+    padding: 2px;
+    text-decoration: none;
+}
+.pagination{
+    color:red;
+}
+.stege{
+    margin-top: 5px;
+}
+.page{
+    width: 100%;
+}

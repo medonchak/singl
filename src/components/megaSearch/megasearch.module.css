@@ -1,0 +1,21 @@
+.styleForm{
+ color: red;
+}
+.styleSearch{
+    font-size: 25px;
+    font-family: 'Monotype Corsiva', Cursive;
+    background-color: #00FFFF;
+}
+.styleSelect{
+    font-family: 'Monotype Corsiva', Cursive;
+    width: 50%;
+    height: 30px;
+    font-size: 20px;
+    margin: 7px;
+}
+.buttonSearch{
+    font-family: 'Monotype Corsiva', Cursive;
+    height: 100%;
+    font-size: 20px;
+    margin: 7px;
+}

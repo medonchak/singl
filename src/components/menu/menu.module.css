@@ -1,0 +1,36 @@
+.menu{
+
+    display: flex;
+	flex-wrap: wrap;
+    border-bottom: solid 4px #b5ced8;
+    max-width: 100%; /* макс ширина */
+    background-color: #FFF5EE;
+}
+.item{
+    text-decoration: none;
+	flex:1 1 calc(23.33% - 5px); /* отнимем margin и скажем растягиваться */
+	margin:0.5px;
+    padding:2px; 
+    font-size:90%; 
+    text-align:center; 
+    background:#7FFFD4; /* для красоты */
+    margin: 7px;
+    
+}
+/* .text {
+    text-decoration: none;
+    color:black;
+} */
+.item:hover{
+    background-color: #F4A460;
+}
+.imgMenu{
+    width: 100px;
+}
+.text {
+    display: inline-block;
+    color:  black;
+    font-family: 'Monotype Corsiva', Cursive;
+    font-size: 1.5em; 
+    text-shadow: .03em .03em 0 hsla(230,40%,50%,1);
+    }

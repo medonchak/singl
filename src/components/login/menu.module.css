@@ -1,0 +1,12 @@
+.menu{
+
+    display: flex;
+    text-decoration: none;
+    justify-content: space-evenly;
+    background-color:greenyellow;
+   
+}
+.text {
+    text-decoration: none;
+    color: white;
+}

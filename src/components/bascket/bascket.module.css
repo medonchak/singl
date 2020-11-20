@@ -1,0 +1,9 @@
+.bascket{
+
+    display: flex;
+    text-decoration: none;
+    flex:1 1 calc(23.33% - 5px);
+
+   
+}
+

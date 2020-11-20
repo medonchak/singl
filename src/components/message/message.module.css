@@ -1,0 +1,100 @@
+.index{
+    display: flex;
+    width: 60%;
+    margin-top: 30px;
+    justify-content: center;
+}
+.indexChild{
+    width: 100%;
+    border: solid 1px blue;
+    padding: 1px;
+}
+.logo{
+display: flex;
+justify-content: center;
+background-color: crimson;
+}
+.message{
+    width: 100%;
+    height: 500px;
+    overflow-y: scroll;
+}
+.messageOne{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.messageTwo{
+    margin-right: 20px;
+   
+}
+.button{
+    width: 30%;
+}
+.form{
+    width: 100;
+    display: flex;
+    justify-content: center;
+}
+.textarea{
+    width: 100%;
+    height: 40px;
+    resize: none;
+}
+.messageDiv{
+    display: flex;
+}
+
+.styleMessageOne{
+    display: flex;
+    justify-content: space-between;
+    background-color: cornflowerblue;
+    height: 60px;
+    margin: 4px;
+    padding: 5px;
+}
+.styleMessageTwo{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(100, 221, 237);
+    height: 60px;
+    margin: 4px;
+    padding: 5px;
+}
+
+
+.imgBut{
+    width: 35px;
+    margin: 3px;
+    
+}
+.imgBut:hover{
+    cursor: pointer;
+}
+.div{
+    width: 45px;
+}
+.file{
+    width: 30px;
+    opacity: 0;
+}
+.img{
+    width: 35px;
+    height: 40px;
+    margin: 1px;
+    position: fixed;
+
+}
+
+.nameDialogs{
+    text-shadow:
+    1px 1px 0 red,
+    1px -1px 0 red,
+    -1px 1px 0 red,
+    -1px -1px 0 red;
+  color: white;
+  transition: all 1s;
+  background-color: indigo;
+  width: 100%;
+  font-size: 25px;
+}

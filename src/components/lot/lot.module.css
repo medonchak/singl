@@ -1,0 +1,45 @@
+.lot{
+
+    padding: 10px;    
+    margin-left: 15px;
+    border: solid 1px blue;
+    flex:1 1 calc(23.33% - 5px); /* отнимем margin и скажем растягиваться */
+    font-size:110%; 
+    margin: 7px;
+    justify-content: space-between;
+    max-width: 280px;
+    min-width: 240px;
+   
+}
+
+.text{
+    text-decoration: none;
+    color: black;
+}
+.text:hover{
+    opacity: 0.2;
+    
+}
+.button{
+    max-width: 110px;
+  
+}
+.imgBut{
+    width: 30px;
+    height: 30px;
+}
+.imgBut:hover{
+    cursor: pointer;
+}
+.button:hover{
+    color: blue;
+}
+.but{
+    
+    display: flex;
+    justify-content: center;
+}
+.img{
+    width: 130px;
+    height: 130px;
+}
